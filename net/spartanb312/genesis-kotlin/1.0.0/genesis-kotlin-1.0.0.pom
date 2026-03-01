@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.spartanb312</groupId>
   <artifactId>genesis-kotlin</artifactId>
-  <version>1.0</version>
+  <version>1.0.0</version>
   <name>genesis-kotlin</name>
   <description>Genesis kotlin module</description>
   <url>https://github.com/spartanb312/genesis</url>

@@ -2,8 +2,8 @@
   "formatVersion": "1.1",
   "component": {
     "group": "net.spartanb312",
-    "module": "genesis-kotlin",
-    "version": "1.0",
+    "module": "genesis-scala",
+    "version": "1.0.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,15 +25,24 @@
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
       "files": [
         {
-          "name": "genesis-kotlin-1.0.jar",
-          "url": "genesis-kotlin-1.0.jar",
-          "size": 85169,
-          "sha512": "3b8bfd770601c410cdec18477663259d0f1162404fb4bc962fea8d74b681dc1145667a70e870b3a396c30c1d6ad569b613e17f88ab912c71c77b991d91e0c283",
-          "sha256": "2b5aeebc576e74d86e433cfb1064f4a5cf0930e9fd50c700852593f7043d8f60",
-          "sha1": "74ede2312eec9e57cdfb38bee8cc5c5dd0c35080",
-          "md5": "72c08dd62e0938714c4e5e701593948b"
+          "name": "genesis-scala-1.0.0.jar",
+          "url": "genesis-scala-1.0.0.jar",
+          "size": 104069,
+          "sha512": "27ec1db8984b3a55d951059357bd4fb924da493b0a53f4f93572bb65337ff65edb19cf4304685bc70bc4c88140ec4918e622a35015c651e65987546ee507603c",
+          "sha256": "992c1ff8a1bc5ead002a4255711162ce0a9296884264b68d9e5ffe6ce1b123a4",
+          "sha1": "82244785028de38790600505d40cd7684fe92530",
+          "md5": "ad14841779fea9c0cfbcdbf2492478a4"
         }
       ]
     },
@@ -50,8 +59,11 @@
       },
       "dependencies": [
         {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib"
+          "group": "org.scala-lang",
+          "module": "scala3-library_3",
+          "version": {
+            "requires": "3.6.3"
+          }
         },
         {
           "group": "org.ow2.asm",
@@ -87,9 +99,7 @@
           "version": {
             "requires": "9.7.1"
           }
-        }
-      ],
-      "dependencyConstraints": [
+        },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
@@ -100,13 +110,13 @@
       ],
       "files": [
         {
-          "name": "genesis-kotlin-1.0.jar",
-          "url": "genesis-kotlin-1.0.jar",
-          "size": 85169,
-          "sha512": "3b8bfd770601c410cdec18477663259d0f1162404fb4bc962fea8d74b681dc1145667a70e870b3a396c30c1d6ad569b613e17f88ab912c71c77b991d91e0c283",
-          "sha256": "2b5aeebc576e74d86e433cfb1064f4a5cf0930e9fd50c700852593f7043d8f60",
-          "sha1": "74ede2312eec9e57cdfb38bee8cc5c5dd0c35080",
-          "md5": "72c08dd62e0938714c4e5e701593948b"
+          "name": "genesis-scala-1.0.0.jar",
+          "url": "genesis-scala-1.0.0.jar",
+          "size": 104069,
+          "sha512": "27ec1db8984b3a55d951059357bd4fb924da493b0a53f4f93572bb65337ff65edb19cf4304685bc70bc4c88140ec4918e622a35015c651e65987546ee507603c",
+          "sha256": "992c1ff8a1bc5ead002a4255711162ce0a9296884264b68d9e5ffe6ce1b123a4",
+          "sha1": "82244785028de38790600505d40cd7684fe92530",
+          "md5": "ad14841779fea9c0cfbcdbf2492478a4"
         }
       ]
     }
